@@ -5,12 +5,13 @@
   "main": "websocket.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon websocket.js"
+    "start": "nodemon websocket.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.20",
+    "socket.io": "^4.6.1",
     "ws": "^8.12.1"
   }
 }
